@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tea House</title>
+    <link rel="stylesheet" href="./styles/style.css" />
     <!-- taiwind cdn--- -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- font awesome -->
@@ -15,7 +16,7 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body>
+  <body class="manrope-font">
     <!-- banner section stars here -->
     <div
       class="parent-div flex flex-col md:flex-row justify-between min-h-[200px] max-w-[1250px] mx-auto"
@@ -229,7 +230,7 @@
           <div class="flex items-center">
             <p class="mr-8">Ready to get started?</p>
             <button
-              class="w-[150px] h-[50px] text-xl text-white rounded-lg bg-gradient-to-r from-[#ff8938] to-[#ff0000]"
+              class="p-2 text-white rounded-md bg-gradient-to-r from-[#ff8938] to-[#ff0000] font-semibold"
             >
               Get Started
             </button>
@@ -270,7 +271,11 @@
               placeholder="Email address"
               class="border-b-2 outline-none pb-3 mt-5"
             />
-            <button class="border-2 h-[30px] w-[30px] rounded-full">></button>
+            <button
+              class="bg-gradient-to-r from-[#ff8938] to-[#ff0000] h-[30px] w-[30px] rounded-full text-white"
+            >
+              <i class="fa-solid fa-angle-right"></i>
+            </button>
             <div class="mt-5">
               <i class="fa-brands fa-facebook-f"></i>
               <i class="fa-brands fa-x-twitter"></i>
